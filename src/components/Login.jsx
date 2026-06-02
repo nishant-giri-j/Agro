@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import agrologo from '../assets/Agro.png';
+import agrologo from '../assets/agro.png';
 
 const Login = () => {
   const [formData, setFormData] = useState({

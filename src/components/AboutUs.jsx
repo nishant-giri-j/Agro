@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import Marquee from 'react-fast-marquee';
 
-import Pranav from '../Images/Pranav.jpg';
+import Pranav from '../Images/pranav.jpg';
 import rounak from '../Images/rounak.jpg';
 import drishthi from '../Images/drishthi.jpg';
 import mishthi from '../Images/mishthi.jpg';

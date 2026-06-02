@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { SendHorizonal, MessageCircle } from "lucide-react";
-import agro from "../assets/Agro.png";
+import agro from "../assets/agro.png";
 import faqData from "../data/faqData"; // Import FAQ data
 import { sendChatMessage } from "../api/chat";
 

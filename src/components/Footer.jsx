@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, Info, Home, Contact, Lock, ShieldCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Agro.png';
+import Logo from '../assets/agro.png';
 
 const Footer = () => {
   return (
