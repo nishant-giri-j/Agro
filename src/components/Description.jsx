@@ -27,6 +27,7 @@ const cropInfo = {
   
 const diseaseInfo = {
     // Paddy Diseases
+    "Paddy": {
     "Rice Blast": {
         description: "Rice blast is a devastating fungal disease caused by Magnaporthe oryzae, characterized by diamond-shaped lesions with gray centers and brown margins on leaves. The disease spreads rapidly in warm (25-28°C), humid conditions and can cause yield losses up to 100% in severe cases. Spores are dispersed by wind and rain splash, infecting plants through natural openings or wounds.",
         image: "https://www.google.com/search?q=rice+blast+disease&tbm=isch",
@@ -63,7 +64,9 @@ const diseaseInfo = {
         prevention: "Control leafhoppers, use resistant varieties, practice synchronous planting"
     },
 
+    },
     // Wheat Diseases
+    "Wheat": {
     "Rust": {
         description: "Wheat rust appears as reddish-brown powdery pustules on leaves and stems, caused by Puccinia species. The disease spreads via wind-dispersed spores over long distances, favored by cool temperatures (15-22°C) and high humidity. Rust can reduce yields by 10-70% and requires timely fungicide application for control.",
         image: "https://www.google.com/search?q=wheat+rust+disease&tbm=isch",
@@ -100,7 +103,9 @@ const diseaseInfo = {
         prevention: "Plant resistant varieties, avoid planting after corn, apply fungicides at flowering"
     },
 
+    },
     // Chickpea Diseases
+    "Chickpea": {
     "Fusarium Wilt": {
         description: "Fusarium wilt is a soil-borne fungal disease causing yellowing and wilting of plants. The fungus can persist in soil for many years, infecting through roots and blocking vascular tissues. It thrives in warm soil temperatures (25-30°C) and affects many crops including tomatoes, bananas, and legumes.",
         image: "https://www.google.com/search?q=fusarium+wilt+disease&tbm=isch",
@@ -137,7 +142,9 @@ const diseaseInfo = {
         prevention: "Control leafhopper vectors, use resistant varieties, remove infected plants"
     },
 
+    },
     // Tomato Diseases
+    "Tomatoes": {
     "Early Blight": {
         description: "Early blight is a fungal disease of tomatoes causing concentric rings on older leaves that eventually yellow and drop. The disease reduces fruit production and quality, thriving in warm, humid weather with alternating wet/dry periods.",
         image: "https://www.google.com/search?q=tomato+early+blight&tbm=isch",
@@ -174,7 +181,9 @@ const diseaseInfo = {
         prevention: "Plant resistant varieties, solarize soil, practice long crop rotations"
     },
 
+    },
     // Chillies Diseases
+    "Chillies": {
     "Anthracnose": {
         description: "Anthracnose is a fungal disease causing sunken, dark lesions on chilli fruits. The disease spreads rapidly during warm, wet periods and can cause significant post-harvest losses. Infected fruits become unmarketable.",
         image: "https://www.google.com/search?q=chilli+anthracnose&tbm=isch",
@@ -211,7 +220,9 @@ const diseaseInfo = {
         prevention: "Avoid wounding fruits, practice proper drying, apply fungicides before harvest"
     },
 
+    },
     // Sugarcane Diseases
+    "Sugarcane": {
     "Red Rot": {
         description: "Red rot is a destructive fungal disease of sugarcane causing reddening of internal tissues and stalk rot. The pathogen spreads through infected setts and survives in crop residues for years. Severe infections can cause complete yield loss.",
         image: "https://www.google.com/search?q=sugarcane+red+rot&tbm=isch",
@@ -248,7 +259,9 @@ const diseaseInfo = {
         prevention: "Use disease-free setts, practice hot water treatment, disinfect equipment"
     },
 
+    },
     // Sunflower Diseases
+    "Sunflower": {
     "Sclerotinia Rot": {
         description: "Sclerotinia rot is a destructive fungal disease of sunflower causing stem rot and head mold. The pathogen produces hard black survival structures (sclerotia) that persist in soil for years. The disease can cause complete yield loss.",
         image: "https://www.google.com/search?q=sunflower+sclerotinia+rot&tbm=isch",
@@ -285,7 +298,9 @@ const diseaseInfo = {
         prevention: "Maintain plant vigor, irrigate during drought, practice crop rotation"
     },
 
+    },
     // Sorghum (Jowar) Diseases
+    "Sorghum (Jowar)": {
     "Anthracnose": {
         description: "Anthracnose is a fungal disease of sorghum causing red lesions on leaves and stalk rot. The disease can kill plants under favorable conditions and reduces both grain and forage quality.",
         image: "https://www.google.com/search?q=sorghum+anthracnose&tbm=isch",
@@ -322,7 +337,9 @@ const diseaseInfo = {
         prevention: "Plant resistant varieties, control flowering time, rogue infected heads"
     },
 
+    },
     // Pigeonpea (Tur) Diseases
+    "Pigeonpea (Tur)": {
     "Wilt": {
         description: "Fusarium wilt is a soil-borne disease of pigeonpea causing sudden wilting and death of plants. The fungus persists in soil for many years and is more severe in light soils.",
         image: "https://www.google.com/search?q=pigeonpea+wilt&tbm=isch",
@@ -359,7 +376,9 @@ const diseaseInfo = {
         prevention: "Avoid plant stress, practice crop rotation, remove infected plants"
     },
 
+    },
     // Soybean Diseases
+    "Soybean": {
     "Rust": {
         description: "Soybean rust is a devastating fungal disease that can cause complete defoliation under favorable conditions. The disease spreads rapidly via wind-dispersed spores and requires specific management strategies.",
         image: "https://www.google.com/search?q=soybean+rust&tbm=isch",
@@ -396,7 +415,9 @@ const diseaseInfo = {
         prevention: "Use virus-free seeds, control aphid vectors, rogue infected plants"
     },
 
+    },
     // Cotton Diseases
+    "Cotton": {
     "Boll Rot": {
         description: "Boll rot is caused by several fungi that infect cotton bolls, reducing fiber quality and yield. The disease develops when prolonged wet conditions occur during boll development.",
         image: "https://www.google.com/search?q=cotton+boll+rot&tbm=isch",
@@ -433,7 +454,9 @@ const diseaseInfo = {
         prevention: "Use disease-free seeds, practice crop rotation, apply copper sprays"
     },
 
+    },
     // Rabi Crop Diseases
+    "Rabi Crop": {
 
     "Leaf Rust": {
     description: "Leaf rust is a fungal disease affecting wheat and other rabi crops, characterized by orange-brown pustules on leaves. It spreads rapidly in cool, humid conditions (15-22°C) and can cause yield losses up to 30%.",
@@ -471,7 +494,9 @@ const diseaseInfo = {
         prevention: "Hot water seed treatment, systemic fungicides"
     },
 
+    },
     //Linseed Diseases
+    "Linseed": {
     "Powdery Mildew": {
         description: "Powdery mildew forms white fungal patches on linseed leaves and stems, reducing photosynthesis and seed yield.",
         image: "https://www.google.com/search?q=linseed+powdery+mildew&tbm=isch",
@@ -508,7 +533,9 @@ const diseaseInfo = {
         prevention: "Field sanitation, balanced fertilization"
     },
 
+    },
     // Green Gram Diseases
+    "Green gram": {
     "Yellow Mosaic": {
         description: "Yellow mosaic virus causes bright yellow patches on leaves and stunted growth, transmitted by whiteflies.",
         image: "https://www.google.com/search?q=green+gram+yellow+mosaic&tbm=isch",
@@ -545,7 +572,9 @@ const diseaseInfo = {
         prevention: "Copper sprays, avoid overhead irrigation"
     },
 
+    },
     // Black Gram Diseases
+    "Black gram": {
     "Root Rot": {
         description: "Root rot causes blackening and decay of black gram roots, leading to wilting and plant death, especially in waterlogged soils.",
         image: "https://www.google.com/search?q=black+gram+root+rot&tbm=isch",
@@ -582,7 +611,9 @@ const diseaseInfo = {
         prevention: "Aphid control, resistant varieties"
     },
 
+    },
     //Notable Crop
+    "Notable Crop": {
     "Late Blight": {
     description: "Late blight affects the leaves and stems, causing water-soaked lesions that rapidly turn brown and spread in cool, moist weather. It can destroy entire fields quickly.",
     image: "https://www.google.com/search?q=late+blight+in+crops&tbm=isch",
@@ -619,7 +650,9 @@ const diseaseInfo = {
         prevention: "Improve drainage, avoid excess irrigation"
     },
 
+    },
     // Orange
+    "Orange": {
 
 "Citrus Canker": {
     description: "Citrus canker is a bacterial disease that causes lesions on leaves, stems, and fruit, reducing market value and making the fruit more prone to falling early.",
@@ -657,7 +690,9 @@ const diseaseInfo = {
         prevention: "Prune and destroy infected parts, apply fungicides"
     },
 
+    },
     //  Traditional Crop
+    "Traditional Crop": {
     "Rust": {
     description: "Rust diseases create rust-colored pustules on the undersides of leaves, hindering photosynthesis and plant growth, especially during humid weather.",
     image: "https://www.google.com/search?q=plant+rust+disease&tbm=isch",
@@ -694,7 +729,9 @@ const diseaseInfo = {
         prevention: "Ensure air flow, spray neem or sulfur"
     },
 
+    },
     // Groundnut
+    "Groundnut": {
     "Tikka Disease": {
     description: "Tikka disease causes brown circular spots with yellow halos on groundnut leaves, leading to early leaf fall and reduced pod formation. It is one of the most common foliar diseases.",
     image: "https://www.google.com/search?q=groundnut+tikka+disease&tbm=isch",
@@ -731,7 +768,9 @@ const diseaseInfo = {
         prevention: "Seed treatment, timely fungicide application"
     },
 
+    },
     // Moong (Green Gram)
+    "Moong (Green Gram)": {
     "Powdery Mildew": {
     description: "Powdery mildew forms a white powdery coating on moong leaves and stems. It blocks sunlight, reduces photosynthesis, and weakens the plant during flowering and pod development stages.",
     image: "https://www.google.com/search?q=moong+powdery+mildew&tbm=isch",
@@ -768,7 +807,9 @@ const diseaseInfo = {
         prevention: "Spray mancozeb, use clean seeds"
     },
 
+    },
     // Urd (Black Gram)
+    "Urd (Black Gram)": {
     "Anthracnose": {
     description: "Anthracnose forms dark lesions on black gram stems, pods, and leaves. It is a common fungal disease that can lead to significant yield loss if not controlled early.",
     image: "https://www.google.com/search?q=black+gram+anthracnose&tbm=isch",
@@ -805,7 +846,9 @@ const diseaseInfo = {
         prevention: "Whitefly control, grow resistant varieties"
     },
 
+    },
     // Sesamum
+    "Sesamum": {
     "Phyllody": {
     description: "Phyllody transforms sesame flowers into leafy structures, preventing seed formation. It is caused by phytoplasma and spread by leafhoppers. Infected plants remain sterile and yield is lost.",
     image: "https://www.google.com/search?q=sesamum+phyllody&tbm=isch",
@@ -843,14 +886,15 @@ const diseaseInfo = {
     },
 
 
+    },
     // Banana Diseases
+    "Bananas": {
     "Panama Disease": {
         description: "Panama disease (Fusarium wilt) is a soil-borne fungal disease threatening global banana production. The tropical race 4 (TR4) strain affects Cavendish bananas and persists in soil for decades. There is no cure for infected plants.",
         image: "https://www.google.com/search?q=banana+panama+disease&tbm=isch",
         causes: "Fungus Fusarium oxysporum f. sp. cubense",
         symptoms: "Yellowing leaves, splitting of pseudostem, vascular discoloration",
-        symptoms: "Yellowing lSesamumeaves, splitting of pseudostem, vascular discoloration",
-        prevention: "Use disease-free plants, prevent soil movement, plant resistant cultivars"
+                prevention: "Use disease-free plants, prevent soil movement, plant resistant cultivars"
     },
     "Sigatoka": {
         description: "Sigatoka is a leaf spot disease that reduces banana photosynthetic area and fruit yield. The disease spreads rapidly during periods of high humidity and rainfall, requiring frequent fungicide applications.",
@@ -881,7 +925,9 @@ const diseaseInfo = {
         prevention: "Proper fruit handling, post-harvest fungicide dips, field sanitation"
     },
 
+    },
     // Onion Diseases
+    "Onions": {
     "Purple Blotch": {
         description: "Purple blotch is a fungal disease causing purple-tinged oval lesions with concentric rings on onion leaves. The disease leads to leaf dieback and reduces bulb size and quality significantly.",
         image: "https://www.google.com/search?q=onion+purple+blotch&tbm=isch",
@@ -917,6 +963,7 @@ const diseaseInfo = {
         symptoms: "Dark green to black lesions on outer scales",
         prevention: "Plant resistant varieties, proper curing, avoid wounding bulbs"
     }
+    },
 };
 
 
@@ -932,11 +979,11 @@ const Description = ({ crop, disease }) => {
         <div className="mb-8">
           <h3 className="text-xl font-semibold mb-3 text-blue-800 border-b pb-2">Disease Information</h3>
           <p className="text-gray-800 mb-4 leading-relaxed">
-            {diseaseInfo[disease]?.description || "No specific information available."}
+            {diseaseInfo[crop]?.[disease]?.description || "No specific information available."}
           </p>
           
           {/* Causes Section */}
-          {diseaseInfo[disease]?.causes && (
+          {diseaseInfo[crop]?.[disease]?.causes && (
             <div className="mb-6 p-4 bg-red-100 rounded-lg border-l-4 border-red-500">
               <h4 className="font-semibold text-red-800 mb-2 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -944,12 +991,12 @@ const Description = ({ crop, disease }) => {
                 </svg>
                 Causes
               </h4>
-              <p className="text-gray-800 pl-7">{diseaseInfo[disease].causes}</p>
+              <p className="text-gray-800 pl-7">{diseaseInfo[crop]?.[disease].causes}</p>
             </div>
           )}
   
           {/* Symptoms Section */}
-          {diseaseInfo[disease]?.symptoms && (
+          {diseaseInfo[crop]?.[disease]?.symptoms && (
             <div className="mb-6 p-4 bg-yellow-100 rounded-lg border-l-4 border-yellow-500">
               <h4 className="font-semibold text-yellow-800 mb-2 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -957,12 +1004,12 @@ const Description = ({ crop, disease }) => {
                 </svg>
                 Symptoms
               </h4>
-              <p className="text-gray-800 pl-7">{diseaseInfo[disease].symptoms}</p>
+              <p className="text-gray-800 pl-7">{diseaseInfo[crop]?.[disease].symptoms}</p>
             </div>
           )}
   
           {/* Prevention Section */}
-          {diseaseInfo[disease]?.prevention && (
+          {diseaseInfo[crop]?.[disease]?.prevention && (
             <div className="mb-6 p-4 bg-green-100 rounded-lg border-l-4 border-green-500">
               <h4 className="font-semibold text-green-800 mb-2 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
@@ -970,12 +1017,12 @@ const Description = ({ crop, disease }) => {
                 </svg>
                 Prevention & Control
               </h4>
-              <p className="text-gray-800 pl-7">{diseaseInfo[disease].prevention}</p>
+              <p className="text-gray-800 pl-7">{diseaseInfo[crop]?.[disease].prevention}</p>
             </div>
           )}
   
-          {diseaseInfo[disease]?.image && (
-            <a href={diseaseInfo[disease].image} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-600 hover:text-green-800 font-medium">
+          {diseaseInfo[crop]?.[disease]?.image && (
+            <a href={diseaseInfo[crop]?.[disease].image} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-600 hover:text-green-800 font-medium">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
               </svg>
