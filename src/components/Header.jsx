@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Logo from "../assets/Agro.png";
+import Logo from "../assets/agro.png";
 
 const MotionLink = motion(Link);
 
