@@ -17,7 +17,7 @@ const Chatbot = () => {
   const [error, setError] = useState(null);
   const chatRef = useRef(null);
 
-  const wordLimit = 30;
+  const wordLimit = 500;
 
   const limitWords = (text) => {
     const words = text.split(" ");
